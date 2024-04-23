@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=
+    <body style="background-color: #414141; color: aliceblue">
+      <h2>The Boys</h2>
+      <div class="">
+        <ul id="images">
+          <li>
+            <img
+              width="200px"
+              id="photoshop1"
+              src="https://images.pexels.com/photos/13308447/pexels-photo-13308447.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="200px"
+              id="photoshop2"
+              src="https://images.pexels.com/photos/13308447/pexels-photo-13308447.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="200px"
+              id="photoshop3"
+              src="https://images.pexels.com/photos/13308447/pexels-photo-13308447.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="200px"
+              id="photoshop3"
+              src="https://images.pexels.com/photos/13308447/pexels-photo-13308447.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              width="200px"
+              id="photoshop4"
+              src="https://images.pexels.com/photos/13308447/pexels-photo-13308447.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+              alt=""
+            />
+          </li>
+          <li>
+            <a style="color: aliceblue" href="https://google.com" id="google"
+              >Google</a
+            >
+          </li>
+        </ul>
+      </div>
+    </body>
+    <script>
+
+          document
+            .getElementById('photoshop2')
+            .addEventListener('click', function (e) {
+              console.log("second photo")
+            },false)
+            document.getElementById('images').addEventListener('click',function(){
+              console.log("Clicked inside Ul");
+            },false)
+            document.getElementById('google').addEventListener('click',function(e){
+              e.preventDefault()
+              console.log(e);
+              console.log("Google clicked");
+              
+
+
+            })
+    </script>
+
+   
+</html>
