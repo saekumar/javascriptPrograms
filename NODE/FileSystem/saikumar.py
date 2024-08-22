@@ -1,0 +1,1 @@
+print([(ord(ch)-ord('a')) if ch not in "aeiou" else ch for ch in input("")])
