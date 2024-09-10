@@ -1,4 +1,4 @@
-'use strict'
+// 'use strict'
 // Treat all JS code as newer version
 
 // alert(3 + 3)  We are using node js ,not browser
@@ -23,5 +23,11 @@ Data types are of only 3 .
 
 */
 
-console.log(typeof 'saikumar')
-console.log(typeof undefined)
+// console.log(typeof 'saikumar')
+// console.log(typeof undefined)
+
+console.log(10 + '20')
+console.log(9 - '5')
+console.log('9' * '5')
+console.log('vinod' - 'thapa')
+console.log(false - true)
